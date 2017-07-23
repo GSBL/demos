@@ -19,7 +19,7 @@
     data () {
       let data = {
         lotteryOptions:{
-          showJackpot: false, // boolean 是否显示奖金池一栏
+          showJackpot: true, // boolean 是否显示奖金池一栏
           showRecommend: false, // boolean 是否显示'推荐'icon
           showCarry: true, // boolean 是否显示金额对应的进位文字，如'百'
           isLuckyNumsInline: true, //  boolean是否将幸运数字显示为inline-flex
